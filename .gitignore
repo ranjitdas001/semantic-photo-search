@@ -1,0 +1,25 @@
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Dataset and generated embeddings
+data/
+*.npz
+
+# Downloaded model weights
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Environment variables
+.env
+.env.*
+
+# IDE files
+.vscode/
